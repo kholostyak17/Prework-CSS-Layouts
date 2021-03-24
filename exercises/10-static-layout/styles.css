@@ -24,15 +24,28 @@ header,
 nav,
 section {
 	border: 1px solid rgba(255, 255, 255, 0.8);
-	margin-bottom: 10px;
 	border-radius: 3px;
+	margin: 0.7%;
 }
 
 header {
-	padding: 10px 0;
+	padding: 20px 0;
+	display: block;
 }
 
 nav,
 section {
-	padding: 100px 0;
+	padding: 150px 0;
+	display: inline-block;
+}
+.wrapper {
+	margin: 10px;
+}
+nav {
+	float: left;
+	width: 20%;
+}
+section {
+	float: right;
+	width: 77%;
 }

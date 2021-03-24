@@ -1,29 +1,47 @@
-#div1 {
-	background-color: red;
-	width: 150px;
+.contenedor {
+	width: 800px;
+	height: 500px;
+	margin: 0 auto;
+}
+.left {
 	float: left;
-	height: 100px;
-	padding: 100px;
-	text-align: center;
-	border-radius: 50px;
+	width: 50%;
+	height: 100%;
 }
-#div2 {
+.right {
+	float: right;
+	width: 50%;
+	height: 100%;
+}
+.contenedor div {
+	text-align: center;
+	border-radius: 25px;
+}
+
+.left div {
+	height: 50%;
+	line-height: 150px;
+}
+.right div {
+	height: 25%;
+	color: white;
+	line-height: 50px;
+}
+.div1 {
+	background-color: red;
+}
+.div2 {
 	background-color: blue;
-	height: 100px;
-	width: 150px;
-	padding: 25px;
-	color: white;
-	text-align: center;
-	overflow: hidden;
-	border-radius: 25px;
 }
-#div3 {
+.div3 {
+	background-color: blue;
+}
+.div4 {
 	background-color: yellow;
-	height: 100px;
-	width: 150px;
-	padding: 25px;
-	color: white;
-	text-align: center;
-	overflow: hidden;
-	border-radius: 25px;
+}
+.div5 {
+	background-color: red;
+}
+.div6 {
+	background-color: black;
 }
